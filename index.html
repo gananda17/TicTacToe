@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+      <title>Ge Tic Tac Toe</title>
+  </head>
+<body>
+  <script src="script.js"></script>
+   <div class="reset" onClick="newGame = new Game(); for(let n = 0; n < document.getElementById('map').children.length; n++)document.getElementById('map').children[n].textContent = ''"> &olarr;</div>
+   <div class="map" id="map">
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(1,1);this.textContent = '0';}else{newGame.clicked(1,0);this.textContent = 'x';};  "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(2,1);this.textContent = '0';}else{newGame.clicked(2,0);this.textContent = 'x';} "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(3,1);this.textContent = '0';}else{newGame.clicked(3,0);this.textContent = 'x';} "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(4,1);this.textContent = '0';}else{newGame.clicked(4,0);this.textContent = 'x';} "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(5,1);this.textContent = '0';}else{newGame.clicked(5,0);this.textContent = 'x';} "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(6,1);this.textContent = '0';}else{newGame.clicked(6,0);this.textContent = 'x';} "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(7,1);this.textContent = '0';}else{newGame.clicked(7,0);this.textContent = 'x';} "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(8,1);this.textContent = '0';}else{newGame.clicked(8,0);this.textContent = 'x';} "></box>
+      <box onClick="if(this.textContent == '' && newGame.gameOn)if(Number(newGame.history[0].length + newGame.history[1].length) % 2 == 0){newGame.clicked(9,1);this.textContent = '0';}else{newGame.clicked(9,0);this.textContent = 'x';} "></box>
+   </div>     
+   </body>
+</html>
+    <div class="card" style="text-align: center; margin: 10px;">
+        <h1>Created By 
+           Gilang Ananda</h1>
+    </div>
+    <div class="card" style="text-align: center; margin: 10px;">
+        <h1>Start Play With Your Friends</h1>
+    </div>
+
+
+
