@@ -13,7 +13,7 @@ function Game() {
       }
   }
   this.winner = (player) => {
-  if(player == 0) {alert("winner is X")}else{alert("winner is O");}
+  if(player == 0) {alert("X Menang Bung")}else{alert("O Menang Bung");}
   }
 }
 var newGame = new Game();
